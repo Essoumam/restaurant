@@ -1,0 +1,92 @@
+@font-face {
+  font-family: "Adorable Handmade";
+  font-family: "Super Toast";
+  font-family: "JDK Gratsch of Apana";
+  src: url("adorable_handmade/Adorable Handmade.ttf") format("truetype");
+  src: url("super_toast/SuperToast.ttf") format("truetype");
+  src: url("jdk_gratsch_of_apana/JDK Gratsch of Apana.ttf") format("truetype");
+}
+.lotus{
+  font-family: "Adorable Handmade";
+  color: rgb(255, 217, 0);
+}
+.welcom{
+  font-family: "Super Toast";
+  color: rgb(255, 217, 0);
+}
+.contact{
+  font-family: "Super Toast";
+}
+.fs-4 {
+  font-family: "Adorable Handmade";
+  font-size: 100px;
+}
+.the{
+  font-family: "Adorable Handmade";
+  color: rgb(255, 217, 0);
+}
+
+.menu{
+  font-family: "JDK Gratsch of Apana";
+}
+  
+  .text-small {
+    font-size: 85%;
+  }
+  
+  .dropdown-toggle:not(:focus) {
+    outline: 0;
+  }
+  .a{
+    transition: transform 0.3s;
+    margin: 10px;
+  }
+  .a:hover{
+    transform: scale(1.05);
+    content: url('C:/wamp64/www/site web restaurant/images/resto12.jpg');
+    transition: opacity 2 ease-in-out;
+  }
+  .b{
+    transition: transform 0.3s;
+  }
+  .b:hover{
+    transform: scale(1.05);
+    content: url('C:/wamp64/www/site web restaurant/images/resto1.jpg');
+    transition: opacity 2 ease-in-out;
+  }
+  .c{
+    transition: transform 0.3s;
+    margin: 10px;
+  }
+  .c:hover{
+    transform: scale(1.05);
+    content: url('C:/wamp64/www/site web restaurant/images/resto34.jpg');
+    transition: opacity 2 ease-in-out;
+  }
+  #about img {
+    max-width: 100%;
+}
+  footer{
+    background-color: #242F49;
+    width: 100%;
+    height: 400px;
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+  }
+  body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    
+  }
+  footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  footer.item{
+    padding: 10px;
+  }
+  
